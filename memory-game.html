@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Memory Game</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+padding:50px;
+}
+
+.card{
+width:100px;
+height:100px;
+background:#4CAF50;
+color:white;
+font-size:30px;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+margin:10px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Memory Card Game</h2>
+
+<div class="card" onclick="flipCard(this)">?</div>
+<div class="card" onclick="flipCard(this)">?</div>
+<div class="card" onclick="flipCard(this)">?</div>
+<div class="card" onclick="flipCard(this)">?</div>
+
+<script>
+
+function flipCard(card){
+
+card.innerText="✔";
+
+}
+
+</script>
+
+</body>
+
+</html>
